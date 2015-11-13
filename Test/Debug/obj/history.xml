@@ -1,13 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -I..\..\..\..\..\..\..\Desktop\STMPE811\app -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\..\Desktop -I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template -I..\..\..\..\..\..\..\Desktop\STMPE811 -I..\..\..\..\..\..\.. -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Include -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Device\ST\STM32F4xx -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Device\ST -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers -I..\..\..\..\..\..\..\Desktop\STMPE811\app\STMPE811_file -I..\..\..\..\..\..\..\Documents -I..\..\..\..\..\..\..\Desktop\STMPE811\app\Download -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\..\..">
-      <target file="Rcc.o" lastModified="150dc046f33">
-         <source file="..\..\..\Rcc.c" lastModified="150dbf81ff7"/>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -DSTM32F429_439xx -I..\..\..\..\..\..\..\Desktop -I..\..\..\..\..\..\..\Desktop\RNG\app\Config -I..\..\..\..\..\..\..\Desktop\RNG\app -I..\..\..\..\..\..\..\Desktop\RNG -I..\..\..\..\..\..\..\Desktop\RNG\app\Core">
+      <target file="system_stm32f4xx.o" lastModified="15100644d2c">
+         <source file="..\..\..\app\Config\system_stm32f4xx.c" lastModified="150fbb9cfb0"/>
       </target>
-   </processor>
-   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -I..\..\..\..\..\..\..\Desktop\STMPE811 -I..\..\..\..\..\..\.. -I..\..\..\..\..\..\..\Desktop\STMPE811\app -I..\..\..\..\..\..\..\Desktop\STMPE811\app\STMPE811_file -I..\..\..\..\..\..\..\Desktop -I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template -I..\..\..\..\..\..\..\Desktop\STMPE811\app\Download -I..\..\..\..\..\..\..\..">
-      <target file="RNG.o" lastModified="150dc1c0554">
-         <source file="..\..\..\..\RNG.c" lastModified="150dc1ac036"/>
+      <target file="main.o" lastModified="15100644c71">
+         <source file="..\..\..\app\main.c" lastModified="1510056efc0"/>
+      </target>
+      <target file="RNG.o" lastModified="15100644d8a">
+         <source file="..\..\..\app\RNG.c" lastModified="150fed9a641"/>
+      </target>
+      <target file="startup_stm32f429xx.o" lastModified="15100644ca0">
+         <source file="..\..\..\app\Config\startup_stm32f429xx.s" lastModified="14c0ebfd050"/>
+      </target>
+      <target file="Rcc.o" lastModified="15100644be4">
+         <source file="..\..\..\app\Rcc.c" lastModified="150ffecd1c6"/>
       </target>
    </processor>
 </history>
