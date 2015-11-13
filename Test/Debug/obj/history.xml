@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -I..\..\..\..\..\..\..\Desktop\STMPE811\app -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -I..\..\..\..\..\..\..\Desktop -I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template -I..\..\..\..\..\..\..\Desktop\STMPE811 -I..\..\..\..\..\..\.. -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Include -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Device\ST\STM32F4xx -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Device\ST -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers -I..\..\..\..\..\..\..\Desktop\STMPE811\app\STMPE811_file -I..\..\..\..\..\..\..\Documents -I..\..\..\..\..\..\..\Desktop\STMPE811\app\Download -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc -I..\..\..\..\..\..\..\..">
+      <target file="Rcc.o" lastModified="150dc046f33">
+         <source file="..\..\..\Rcc.c" lastModified="150dbf81ff7"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -I..\..\..\..\..\..\..\Desktop\STMPE811 -I..\..\..\..\..\..\.. -I..\..\..\..\..\..\..\Desktop\STMPE811\app -I..\..\..\..\..\..\..\Desktop\STMPE811\app\STMPE811_file -I..\..\..\..\..\..\..\Desktop -I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template -I..\..\..\..\..\..\..\Desktop\STMPE811\app\Download -I..\..\..\..\..\..\..\..">
+      <target file="RNG.o" lastModified="150dc1c0554">
+         <source file="..\..\..\..\RNG.c" lastModified="150dc1ac036"/>
+      </target>
+   </processor>
+</history>
