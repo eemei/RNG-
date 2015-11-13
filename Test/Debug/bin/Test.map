@@ -85,19 +85,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x34 c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-__atexit.o)
  .ARM.attributes
                 0x00000000       0x2e c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m\libc.a(lib_a-__atexit.o)
- .text          0x00000000       0x3c ..\obj\Rcc.o
- .data          0x00000000        0x0 ..\obj\Rcc.o
- .bss           0x00000000        0x0 ..\obj\Rcc.o
- .debug_info    0x00000000      0x25c ..\obj\Rcc.o
- .debug_abbrev  0x00000000       0x70 ..\obj\Rcc.o
- .debug_aranges
-                0x00000000       0x20 ..\obj\Rcc.o
- .debug_line    0x00000000      0x11d ..\obj\Rcc.o
- .debug_str     0x00000000      0x2ea ..\obj\Rcc.o
- .comment       0x00000000       0x71 ..\obj\Rcc.o
- .debug_frame   0x00000000       0x30 ..\obj\Rcc.o
- .ARM.attributes
-                0x00000000       0x33 ..\obj\Rcc.o
  .text          0x00000000        0xc ..\obj\main.o
  .data          0x00000000        0x0 ..\obj\main.o
  .bss           0x00000000        0x0 ..\obj\main.o
@@ -111,6 +98,19 @@ Discarded input sections
  .debug_frame   0x00000000       0x2c ..\obj\main.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\main.o
+ .text          0x00000000       0x3c ..\obj\Rcc.o
+ .data          0x00000000        0x0 ..\obj\Rcc.o
+ .bss           0x00000000        0x0 ..\obj\Rcc.o
+ .debug_info    0x00000000      0x25c ..\obj\Rcc.o
+ .debug_abbrev  0x00000000       0x70 ..\obj\Rcc.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\Rcc.o
+ .debug_line    0x00000000      0x11d ..\obj\Rcc.o
+ .debug_str     0x00000000      0x2ea ..\obj\Rcc.o
+ .comment       0x00000000       0x71 ..\obj\Rcc.o
+ .debug_frame   0x00000000       0x30 ..\obj\Rcc.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\Rcc.o
  .text          0x00000000      0x27c ..\obj\system_stm32f4xx.o
  .data          0x00000000       0x14 ..\obj\system_stm32f4xx.o
  .bss           0x00000000        0x0 ..\obj\system_stm32f4xx.o
@@ -322,8 +322,8 @@ LOAD c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-
                 0x0000001e       0x2e c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/crtbegin.o
  .ARM.attributes
                 0x0000004c       0x1e c:/program files/gnu tools arm embedded/4.9 2015q1/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/crtn.o
-LOAD ..\obj\Rcc.o
 LOAD ..\obj\main.o
+LOAD ..\obj\Rcc.o
 LOAD ..\obj\system_stm32f4xx.o
 LOAD ..\obj\RNG.o
 LOAD ..\obj\startup_stm32f429xx.o
