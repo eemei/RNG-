@@ -72,24 +72,24 @@
   <Components path="./"/>
   <LocalComponents/>
   <Files>
-    <File name="app/main.c" path="app/main.c" type="1"/>
-    <File name="app/Rcc.c" path="app/Rcc.c" type="1"/>
+    <File name="app/Rcc.c" path="../test/STM32F429ZI_Template/app/Rcc.c" type="1"/>
+    <File name="app/main.c" path="../test/STM32F429ZI_Template/app/main.c" type="1"/>
     <File name="Config/system_stm32f4xx.c" path="app/Config/system_stm32f4xx.c" type="1"/>
     <File name="app" path="" type="2"/>
-    <File name="Config/stm32f4xx_hal_conf.h" path="app/Config/stm32f4xx_hal_conf.h" type="1"/>
-    <File name="Core/core_cm4.h" path="app/Core/core_cm4.h" type="1"/>
-    <File name="app/RNG.h" path="app/RNG.h" type="1"/>
-    <File name="app/RNG.c" path="app/RNG.c" type="1"/>
-    <File name="Core/core_cmFunc.h" path="app/Core/core_cmFunc.h" type="1"/>
-    <File name="Config/stm32f429xx.h" path="app/Config/stm32f429xx.h" type="1"/>
+    <File name="Config/stm32f4xx_hal_conf.h" path="../test/STM32F429ZI_Template/app/Config/stm32f4xx_hal_conf.h" type="1"/>
+    <File name="Core/core_cm4.h" path="../../CoIDE/workspace/STM32Cube_FW_F4_V1.5.0/Drivers/CMSIS/Include/core_cm4.h" type="1"/>
+    <File name="app/RNG.h" path="../test/STM32F429ZI_Template/app/RNG.h" type="1"/>
+    <File name="app/RNG.c" path="../test/STM32F429ZI_Template/app/RNG.c" type="1"/>
+    <File name="Core/core_cmFunc.h" path="../../CoIDE/workspace/STM32Cube_FW_F4_V1.5.0/Drivers/CMSIS/Include/core_cmFunc.h" type="1"/>
+    <File name="Config/stm32f429xx.h" path="../test/STM32F429ZI_Template/app/Config/stm32f429xx.h" type="1"/>
     <File name="Config/startup_stm32f429xx.s" path="app/Config/startup_stm32f429xx.s" type="1"/>
-    <File name="Core/core_cmSimd.h" path="app/Core/core_cmSimd.h" type="1"/>
-    <File name="Config/system_stm32f4xx.h" path="app/Config/system_stm32f4xx.h" type="1"/>
+    <File name="Core/core_cmSimd.h" path="../../CoIDE/workspace/STM32Cube_FW_F4_V1.5.0/Drivers/CMSIS/Include/core_cmSimd.h" type="1"/>
+    <File name="Config/system_stm32f4xx.h" path="../test/STM32F429ZI_Template/app/Config/system_stm32f4xx.h" type="1"/>
     <File name="Core" path="" type="2"/>
-    <File name="Config/stm32f4xx.h" path="app/Config/stm32f4xx.h" type="1"/>
-    <File name="Core/core_cmInstr.h" path="app/Core/core_cmInstr.h" type="1"/>
+    <File name="Config/stm32f4xx.h" path="../test/STM32F429ZI_Template/app/Config/stm32f4xx.h" type="1"/>
+    <File name="Core/core_cmInstr.h" path="../../CoIDE/workspace/STM32Cube_FW_F4_V1.5.0/Drivers/CMSIS/Include/core_cmInstr.h" type="1"/>
     <File name="Config" path="" type="2"/>
-    <File name="app/Rcc.h" path="app/Rcc.h" type="1"/>
+    <File name="app/Rcc.h" path="../test/STM32F429ZI_Template/app/Rcc.h" type="1"/>
   </Files>
   <Bookmarks/>
 </Project>
